@@ -1,0 +1,13 @@
+ul, ol {
+  list-style: none;
+}
+
+.list-horizontal li {
+  float: left;
+  padding: 0 5px;
+}
+
+.result {
+  width: 540px;
+  height: 200px;
+}

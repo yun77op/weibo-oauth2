@@ -1,0 +1,24 @@
+{
+  "name" : "weibo-oauth2",
+  "description" : "Library for interacting with Weibo API V2 via OAuth 2.",
+  "version" : "0.0.1",
+  "directories" : {
+    "lib": "./lib"
+  },
+  "main" : "index.js",
+  "author" : "yun77op <yun77op@gmail.com>",
+  "repository" : {
+    "type": "git",
+    "url": "http://github.com/yun77op/weibo-oauth2.git"
+  },
+  "keywords": ["OAuth2", "OAuth", "weibo", "twitter"],
+  "engines": {
+    "node": "*"
+  },
+  "licenses": [
+    {
+      "type" : "MIT",
+      "url" : "http://github.com/yun77op/weibo-oauth2/raw/master/LICENSE"
+    }
+  ]
+}

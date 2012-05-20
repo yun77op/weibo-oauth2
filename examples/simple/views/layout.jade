@@ -1,0 +1,22 @@
+!!! 5
+html
+  head
+    title= title
+    link(rel="stylesheet", href="/stylesheets/bootstrap.css")
+    link(rel="stylesheet", href="/stylesheets/bootstrap-responsive.css")
+    link(rel="stylesheet", href="/stylesheets/style.css")
+  body()
+    .navbar
+      .navbar-inner
+        .container
+          a.brand(href="/") weibo-oauth2 测试
+          - if (user)
+            .site-meta
+              ul.list-horizontal.pull-right
+                li: a(href="http://weibo.com/u/" + user.id, target="_blank")= user.name
+                li: a(href="/logout") 退出
+    #content
+      != body
+
+    script(src="/javascripts/lib/jquery-1.7.2.min.js")
+    script(src="/javascripts/main.js")
