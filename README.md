@@ -3,6 +3,8 @@ weibo-oauth2
 
 Library for interacting with Weibo API V2 via OAuth 2.
 
+[在线示例](http://nodeweibo.cnodejs.net/)
+
 Installation
 ------------
 
@@ -42,7 +44,7 @@ Simple example
       });
     });
 
-Detailed example is included in `examples/simple`
+具体例子在 `examples/simple`
 
 Public API
 ----------
