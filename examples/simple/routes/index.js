@@ -1,4 +1,4 @@
-var OAuth2 = require('../../../lib/oauth2').OAuth2
+var OAuth2 = require('../../../lib/oauth2')
   , config = require('../config')
   , oauth2 = new OAuth2(config.oauth2)
   , async = require('async');
@@ -89,7 +89,7 @@ exports.app = function(req, res, next) {
 
 exports.api = function(req, res, next) {
   var body = req.body
-    , params = {}
+    , params = {};
 
   for (key in body) {
     if (key != 'type' && key != 'path') {
